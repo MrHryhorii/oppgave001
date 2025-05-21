@@ -1,14 +1,28 @@
+/*
+--Colors: 
+    tea green   #BDD9BF
+    charcoal    #2E4052
+    sunglow     #FFC857
+    white       #FFFFFF
+    dark purple #412234
+*/
+
 body {
-    background-color: bisque;
+    background-color: #FFFFFF;
     font-family: 'Arial', sans-serif;
     width: 90vw;
     margin: auto;
 }
 
 p{
-    font-size: 14px;
+    font-size: 16px;
     text-indent: 24px;
     padding: 16px 16px;
+    font-family:"Montserrat Alternates", sans-serif;
+}
+
+h1, h2{
+    font-family: "Pacifico", cursive;
 }
 
 h1{
@@ -21,7 +35,7 @@ h2{
 }
 
 hr{
-    color: burlywood;
+    color: #2E4052;
     border: solid 2px;
 }
 
@@ -64,15 +78,15 @@ footer{
 }
 
 #first{
-    background-color: red;
+    background-color: #412234
 }
 
 #second{
-    background-color: orange;
+    background-color: #FFC857;
 }
 
 #third{
-    background-color: yellow;
+    background-color: #BDD9BF;
 }
 
 @media (max-width: 512px) {
