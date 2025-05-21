@@ -14,6 +14,10 @@ body {
     margin: auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav{
     /*size&position*/
     position: fixed;
