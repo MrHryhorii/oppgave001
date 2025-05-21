@@ -14,6 +14,39 @@ body {
     margin: auto;
 }
 
+.nav{
+    /*size&position*/
+    position: fixed;
+    height: 72px;
+    width: 92%;
+    top: 36px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /*style*/
+    background-color: #FFFFFF;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #2E4052;
+    z-index:100;
+}
+
+#start, #intro, #cc1, #cc2, #cc3{
+    scroll-margin-top: 75px;
+}
+
+a{
+    font-family: "Montserrat Alternates", sans-serif;   
+}
+
+header{
+    margin-top: 100px;
+}
+
 header, main, footer{
     width: 90%;
     margin-left: auto;
