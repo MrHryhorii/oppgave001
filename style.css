@@ -14,7 +14,7 @@ body {
     margin: auto;
 }
 
-.nav{
+nav{
     /*size&position*/
     position: fixed;
     height: 72px;
@@ -41,6 +41,16 @@ body {
 
 a{
     font-family: "Montserrat Alternates", sans-serif;   
+    text-decoration: none;
+    color: #2E4052; 
+}
+
+a:visited {
+    color: #2E4052;
+}
+
+a:hover {
+  color: #BDD9BF;
 }
 
 header{
