@@ -157,8 +157,30 @@ footer{
     display: flex;
 }
 .block{
-    width: 50%;
+    width: 100%;
     height: 64px;
+
+    position: relative;
+}
+.block div{
+    height: 24px;
+    width: 150px;
+    background-color: #FFFFFF;
+
+    position: absolute;
+    bottom: 16px;
+    right: 5%;
+
+    text-align: center;
+
+    -webkit-box-shadow: 0 0 1px 1px #2E4052 inset;
+    -moz-box-shadow: 0 0 1px 1px #2E4052 inset;
+    box-shadow: 0 0 1px 1px #2E4052 inset;
+}
+.block div a{
+    position: absolute;
+    bottom: 2px;
+    right: 22%;
 }
 /* ------------ */
 #first{
